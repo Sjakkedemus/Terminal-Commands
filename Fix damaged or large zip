@@ -1,0 +1,6 @@
+Essentially what the article says is that you can try with this command:
+
+zip -F myBrokenArchive.zip --out hopefullyRepairedArchive.zip
+and if that doesn't work, make zip try even harder with
+
+zip -FF myBrokenArchive.zip --out hopefullyRepairedArchive.zip
