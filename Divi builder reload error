@@ -1,0 +1,3 @@
+open inspect page and type in the console:
+
+localStorage.clear();
