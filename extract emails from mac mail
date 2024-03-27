@@ -17,3 +17,5 @@ end tell
 ---
 
 then use sublime text to clean up and export to an excel sheet
+
+use remove duplicates in data clean up
