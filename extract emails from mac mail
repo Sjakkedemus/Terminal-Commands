@@ -1,0 +1,19 @@
+run script editor with:
+
+----
+
+tell application "Mail"
+	set allMessages to messages of inbox
+	set emailList to {}
+	repeat with eachMessage in allMessages
+		set senderEmail to sender of eachMessage
+		if senderEmail is not missing value then
+			set end of emailList to senderEmail
+		end if
+	end repeat
+	return emailList
+end tell
+
+---
+
+then use sublime text to clean up and export to an excel sheet
